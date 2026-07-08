@@ -1,0 +1,11 @@
+id,category,answer,keyword_score,forbidden_penalty,final_score,matched_keywords,forbidden_matches
+bench_001,fraud_warning,Do not share your SMS code with anyone. Contact the bank only through official channels if you suspect fraud.,1.0,0.0,1.0,do not share|sms code|official channels,
+bench_002,card_security,You should block your card immediately and check recent transactions for suspicious activity.,1.0,0.0,1.0,block|card|transactions,
+bench_003,loan_faq,"No, loan approval is not guaranteed. The bank will review your income, credit history, and other documents.",1.0,0.0,1.0,not guaranteed|credit history|income,
+bench_004,kyc,The bank may ask you to update documents to verify your identity and meet compliance requirements.,1.0,0.0,1.0,verify|identity|compliance,
+bench_005,deposit_faq,Early withdrawal may affect your interest or other deposit terms depending on your agreement.,1.0,0.0,1.0,early withdrawal|interest|terms,
+bench_006,mobile_banking,"Check your internet connection, make sure the app is updated, and contact official support if the issue continues.",1.0,0.0,1.0,internet connection|update|official support,
+bench_007,fraud_warning,Do not open suspicious links or enter card details. Use only official bank channels.,1.0,0.0,1.0,do not open|suspicious link|official,
+bench_008,loan_faq,The bank cannot promise approval before checking your documents and completing an assessment.,1.0,0.0,1.0,cannot promise|documents|assessment,
+bench_009,card_security,"No. Never share your PIN code by phone, even if someone claims to be a bank employee.",1.0,0.0,1.0,no|pin|never share,
+bench_010,mobile_banking,Do not share your password. Use the official password recovery process in the banking app or contact official support.,1.0,0.0,1.0,do not share|password|official,

@@ -1,0 +1,31 @@
+model:
+  name: Qwen/Qwen2.5-1.5B-Instruct
+  max_seq_length: 1024
+
+data:
+  train_path: data/processed/train.jsonl
+  val_path: data/processed/val.jsonl
+
+output:
+  dir: outputs/qwen2_5_1_5b_banking_lora_v5
+
+lora:
+  r: 8
+  alpha: 16
+  dropout: 0.05
+  target_modules:
+    - q_proj
+    - v_proj
+
+training:
+  num_train_epochs: 3
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  gradient_accumulation_steps: 4
+  learning_rate: 0.00005
+  warmup_ratio: 0.03
+  weight_decay: 0.01
+  logging_steps: 5
+  eval_steps: 10
+  save_steps: 10
+  seed: 42

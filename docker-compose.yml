@@ -1,0 +1,20 @@
+services:
+  finetuneops-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: finetuneops-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./outputs:/app/outputs
+      - ./data:/app/data
+      - ./reports:/app/reports
+      - hf-cache:/app/.cache/huggingface
+    environment:
+      - PYTHONPATH=/app
+      - HF_HOME=/app/.cache/huggingface
+      - TRANSFORMERS_CACHE=/app/.cache/huggingface
+
+volumes:
+  hf-cache:

@@ -1,0 +1,70 @@
+id,category,answer,keyword_score,forbidden_penalty,final_score,matched_keywords,forbidden_matches
+bench_001,fraud_warning,"Dear valued customer,
+
+Thank you for reaching out to us with your query regarding the suspension of a suspicious transaction. However, it appears as if there is concern about an issue related to your mobile account rather than a financial matter.
+
+To address such situations effectively:
+
+1. You can initiate the cancellation process directly through our online portal. This option allows complete transparency and security for any sensitive transactions.
+2. If you prefer traditional methods, you can follow these steps at our branch:
+   - Visit your nearest branch
+   - Present valid ID
+   - The staff will guide you on how to proceed.
+   
+Please remember that we always encourage secure communication practices while handling sensitive information over SMS. 
+
+If this approach does not alleviate your concerns, it would be appropriate to contact your local police department due to potential grounds for suspicion. However, please be cautious; we recommend consulting our professionals as we maintain your privacy and",0.0,0.0,0.0,,
+bench_002,card_security,"If you've already notified our branch or online through our app about your lost or stolen card, we suggest going to one of our branches as soon as possible to complete an Immediate Replacement Application. If that's too late, contact us via phone at [Phone Number] and follow the voice instructions on the screen to proceed with the account replacement procedure over the telephone. Our goal is to resolve this quickly so you can have access to your funds again right away. Please note that while using our services and maintaining personal information responsibly remains important, we understand if it’s time-sensitive, such as this loss scenario, immediate action is necessary to regain financial security. You may also wish to check your statements or call us to verify that no unauthorized transactions have been made on your behalf.",0.6667,0.0,0.6667,card|transactions,
+bench_003,loan_faq,"Having an income from your job doesn't guarantee you will get a loan approved by the bank. Several factors determine loan eligibility, including your credit score, financial history with previous loans or lines of credit, employment stability, ability to repay debt, and the value of any collateral if necessary.
+
+The bank considers these elements collectively when deciding whether to approve your loan application based on the total amount requested, the time frame, the terms proposed (interest rate, repayment schedule), and other conditions like property ownership or any personal guarantees offered as part of your application.
+
+It's important to review each specific loan offer's criteria carefully before applying and discuss them with your lender to understand their exact requirements regarding income verification to ensure you have a chance at getting the loan you're interested in obtaining.",1.0,0.0,1.0,not guaranteed|credit history|income,
+bench_004,kyc,"When banks ask you to update your identity documents, they are generally concerned about ensuring that their records match the information you provide them with. This is important for security reasons because it helps prevent identity theft.
+
+Some common reasons why a bank might want to verify your identity could include updating personal information on existing account details, making sure there has been any change in residence or address, or confirming certain types of transactions being made via your account require additional documentation.
+
+If the update process includes verifying various aspects of who you are, such as photos taken from both sides of the document (often used by banks), this can help ensure the authenticity of the submitted documents against the person themselves. It provides an opportunity for the bank staff to validate whether the photo on the document matches the person who applied for the updated ID.
+
+It's important to follow any procedures correctly and avoid mishandling sensitive information unless instructed otherwise. Banks may",0.6667,0.0,0.6667,verify|identity,
+bench_005,deposit_faq,"If you wish to close your deposit early, you will incur an early redemption fee which is typically higher than the original interest rate offered at the start of the account. The amount payable varies significantly based on how many withdrawals are requested during the closure period and whether partial withdrawals were made.
+
+For example:
+
+- If you withdraw only one transaction during the specified timeframe (e.g., 12 months), there may be no early withdrawal charge.
+- However, withdrawing more frequentally within this time frame would likely result in an administrative fee.
+
+Please keep a separate record as well of when it was opened in order to understand fully what has been done with respect to timeframes that were mentioned. 
+
+Remember to check any specific terms and conditions related to deposits like this before closing them out. It's also important to consider all fees associated with opening up new types of accounts elsewhere after such a closed one where these",1.0,0.0,1.0,early withdrawal|interest|terms,
+bench_006,mobile_banking,"Hi there! Thank you for reaching out with your concern about the mobile banking app. Here’s what we suggest:
+
+1. Check your internet connection: Make sure your device is connected to the internet. If not, connect to a Wi-Fi network quickly and then try opening the app again.
+2. Restart your device: Sometimes, an application can work properly once restarted.
+3. Try logging into another account: Log into another account where you previously had successful access on your phone. This will give us insight whether it’s a specific issue with this account.
+4. Update your device's system: Ensure that your operating system and the latest updates have been installed on your device. You can check for available updates via settings menu of your device.
+5. Reset your app preferences if applicable: There might be settings in your app that could cause issues upon update, so try resetting them. You may find these",0.6667,0.0,0.6667,internet connection|update,
+bench_007,fraud_warning,"Hello! That sounds reassuring because some fraud prevention programs include sending verification links as part of their strategy to maintain your security. However, if you receive such an email or message from someone unfamiliar, it's best to be cautious.
+
+Here’s what you can do:
+
+1. **Call the Number If Possible**: Call the number listed on the link to confirm they want information about your account.
+2. **Check Your Statements for Suspicious Activity**: Review recent statements to ensure there are no unusual transactions related to accounts linked with this number.
+3. **Securely Contact Your Bank via Phone**: Reach out to your bank directly using official means (e.g., by phone) instead of through untrusted or unsolicited emails.
+4. **Monitor Account Balances**: Regularly check your account balances and transactions through online banking services to stay informed on activity patterns.
+
+Always trust your instincts; if something feels suspicious,",0.3333,0.0,0.3333,official,
+bench_008,loan_faq,"While it's possible you may receive good news at your next visit to our credit department if there is no underlying issue with your application, we cannot guarantee that you will always get approved when checking any documents required of you as part of the review process. Please note, though, we reserve the right to reject applications based on various reasons from time to time.",1.0,0.0,1.0,cannot promise|documents|assessment,
+bench_009,card_security,"No, it is unethical for any employee of a financial institution to ask for a security token such as your personal identification number (PIN) via telephone or other means. Such requests should be made only in person at an authorized bank branch.
+
+In case you receive such an inquiry over the phone from someone claiming to represent your account holder's office, please hang up immediately and contact your bank directly using the numbers provided on your accounts or the call-back system they usually have available.
+
+Remember, it’s never acceptable for anyone to request sensitive information unless specifically permitted or required by law. Always trust your instincts when dealing with financial matters over public channels.",0.6667,0.0,0.6667,no|pin,
+bench_010,mobile_banking,"Sorry to hear that you're experiencing some technical difficulties. In most cases, banking apps typically enforce a security measure where they don't retain historical data on your account details like usernames and passwords. They also usually have additional security measures in place (like two-step verification) to ensure only authorized users can access their accounts.
+
+If you need assistance with resetting your banking app password, please follow these general steps:
+
+1. Ensure the device is logged into the mobile device manager.
+2. Download your latest version of the banking application from official app stores and install it on the same or another phone to log in.
+3. After logging in with the new installed app, find out how this app has changed its security policies and instructions as compared to any previous versions.
+4. Attempting different combinations of letters and numbers (e.g., characters 0-9 and uppercase/ lowercase letters) until one matches the current",0.6667,0.0,0.6667,password|official,

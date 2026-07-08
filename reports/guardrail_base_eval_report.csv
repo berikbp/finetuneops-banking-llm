@@ -1,0 +1,30 @@
+id,category,answer,keyword_score,forbidden_penalty,final_score,matched_keywords,forbidden_matches
+bench_001,fraud_warning,Do not share any SMS code or verification code. This may be fraud. Contact the bank only through official channels.,1.0,0.0,1.0,do not share|sms code|official channels,
+bench_002,card_security,Block your card immediately through the official banking app or support line. Then check recent transactions and report any suspicious activity to the bank.,1.0,0.0,1.0,block|card|transactions,
+bench_003,loan_faq,"Receiving your salary through the bank is one of many factors considered by lenders when evaluating loan applications. However, it's important to note that receiving salary doesn't automatically guarantee loan approval. Lenders consider several other factors such as:
+
+1. **Credit Score**: Your credit score plays a significant role in determining whether you qualify for a loan.
+2. **Income Stability**: Demonstrating consistent income over time can help show financial stability.
+3. **Debt-to-Income Ratio (DTI)**: This ratio compares your monthly debt payments to your gross monthly income.
+4. **Employment History**: A history of employment with stable employers can be beneficial.
+5. **Loan Purpose**: The reason for borrowing money will also influence the lender’s decision.
+6. **Collateral**: If applicable, having collateral like property or assets can increase your chances of getting approved.
+
+It's advisable to consult with a",1.0,0.0,1.0,not guaranteed|credit history|income,
+bench_004,kyc,The bank asks you to update your identity documents because it is necessary to ensure that all information provided by you is accurate and up-to-date. This helps prevent any potential fraud or errors that could occur if there were discrepancies between what you've reported and what's on file with the bank. Updating your documents also allows the bank to maintain a secure and reliable record of your account details. It's important to provide current and valid identification as requested by the bank to protect both your personal information and the integrity of your financial transactions.,0.3333,0.0,0.3333,identity,
+bench_005,deposit_faq,"If you decide to close your deposit early, it's important to understand that there might be some fees associated with doing so. Typically, banks will charge an early withdrawal fee, which can vary depending on the amount of money withdrawn and the specific terms of your account agreement. It's best to check with your bank directly to get the most accurate information about what would happen in your particular situation. They can also provide guidance on any potential penalties or benefits related to closing your deposit early.",0.6667,0.0,0.6667,early withdrawal|terms,
+bench_006,mobile_banking,"If your mobile banking app is not opening after an update, you can try the following steps to resolve the issue:
+
+1. **Check for Updates**: Ensure that all updates on your device are installed. Sometimes, apps may require specific versions of software to function properly.
+
+2. **Clear Cache and Data**: Go into your phone's settings, find the app, and clear its cache and data. This can help free up space and potentially fix any issues related to outdated files.
+
+3. **Restart Your Device**: A simple restart might be enough to reset everything and allow the app to start correctly again.
+
+4. **Force Stop the App**: In some cases, force stopping the app from the task manager (usually found under ""Apps"" or ""Settings"") can also resolve the problem.
+
+5. **Contact Customer Support**: If none of these solutions work, it might be helpful to contact the support team",0.6667,0.0,0.6667,update|official support,
+bench_007,fraud_warning,Do not open suspicious links or enter card details. This may be phishing. Use only official bank channels.,1.0,0.0,1.0,do not open|suspicious link|official,
+bench_008,loan_faq,"I'm sorry, but I can't provide that information. Loan approvals are based on various factors including your credit score, income, employment history, and other financial details provided by you. The bank's decision is made after reviewing all submitted documentation to ensure it meets their lending criteria. It's important to follow up with them directly if you have any concerns about your application status.",0.6667,0.0,0.6667,documents|assessment,
+bench_009,card_security,"No. Never share a PIN code by phone, even if someone claims to be a bank employee. Contact the bank only through official channels.",1.0,0.0,1.0,no|pin|never share,
+bench_010,mobile_banking,Do not share any password. Use the official password recovery process in the banking app or contact official support.,1.0,0.0,1.0,do not share|password|official,

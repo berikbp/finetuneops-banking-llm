@@ -1,0 +1,29 @@
+id,category,answer,keyword_score,forbidden_penalty,final_score,matched_keywords,forbidden_matches
+bench_001,fraud_warning,Do not call out and don't send any text codes!,0.0,0.0,0.0,,
+bench_002,card_security,"If you don't use your debit card often, you can still make some purchases with it today. If you're concerned that someone has stolen money with it, call 911 immediately to file a report and get instructions how to block a purchase. Also, change the password on this account as soon as possible and contact your bank if they let them know.",0.6667,0.0,0.6667,block|card,
+bench_003,loan_faq,"Not directly guaranteed by receiving salary. Security should come from KYC checks (know your client). Avoid lending advice as it can lead to fraud. Always report suspicious transactions, but bank policies vary based on laws and regulations.",0.3333,0.0,0.3333,income,
+bench_004,kyc,"Banks usually require updated identification documents to ensure that account holders retain their legal right to use an electronic form of ID (like a card) by updating information in the file they have filed with the Bank (Bank records).
+
+This can include:
+
+- Updating passport photo
+
+- Updating driver's license photo
+
+- Confirming your name after a marriage
+
+- Changing address since you moved away or got promoted
+
+It is important: Don't share your real personal information like full name, date of birth on social media sites as criminals may try to obtain this info. 
+
+Always check the official websites of major banks/credit unions before doing online transactions. The safest option would be using an offline ATM.",0.6667,0.0,0.6667,verify|identity,
+bench_005,deposit_faq,"Please review the contract terms to understand potential loss of interest/penalty/premium, as this will vary from one financial institution to another.",0.6667,0.0,0.6667,interest|terms,
+bench_006,mobile_banking,"Hello,
+
+Mobile Bank Apps should always be opened by pressing 'home' button first then search 'mobile phone banking', otherwise it shows up as inactive. After finding your app make sure you hold down the menu key (which is also the power indicator) until the menu appears. This will reset all settings back to default options so that you may reconfigure them at your own discretion if needed, but there's no need to worry about any issues regarding bank apps being closed.
+
+Thankyou!",0.0,0.0,0.0,,
+bench_007,fraud_warning,"No, clicking a link from an unknown source can pose a risk. Use your bank's official phone number to call them instead of following links directly.",0.3333,0.0,0.3333,official,
+bench_008,loan_faq,"No. The banks cannot guarantee your loan approval before you provide them with important documents to validate your identity, income, credit history, etc. You must follow their instructions and confirm documents one by one according to their guidance as part of the pre-approval process. Always keep an eye on sensitive information while typing into banking apps like phone number, PIN code, or passcode since they can also be requested as proof that is needed to complete the document checks.",0.6667,0.0,0.6667,cannot promise|documents,
+bench_009,card_security,"No. A real bank employee will never ask for your PIN code over the phone. If you receive an unusual request like this from your bank, it's probably a scam. Don't respond to these kinds of messages.",0.6667,0.0,0.6667,no|pin,
+bench_010,mobile_banking,"No, we can't ask you for your password. It's very important to use different strong passwords from each bank account or other online accounts. If this were possible, many fraudsters would be able to hack into more than one account if they know the correct answers to the ""what did I put?"" security questions.",0.3333,0.0,0.3333,password,
